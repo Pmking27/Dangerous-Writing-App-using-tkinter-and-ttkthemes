@@ -68,7 +68,7 @@ title_label_paragraph = Label(
     paragraph_frame, text="⚠ Do Not Stop Typing!!!", wraplength=912, justify=CENTER, font=('arial', 20, 'bold'), bg="#ffe6e6")
 title_label_paragraph.grid(row=0, column=0)
 disc_label_paragraph = Label(
-    paragraph_frame, text="If you stop typing for the 5 second all text will be deleted.", wraplength=912, justify=LEFT, font=('arial', 14, 'bold'), bg="#ffe6e6")
+    paragraph_frame, text="If you stop typing for 5 seconds, all text will be deleted.", wraplength=912, justify=LEFT, font=('arial', 14, 'bold'), bg="#ffe6e6")
 disc_label_paragraph.grid(row=1, column=0)
 
 textarea_frame = Frame(mainframe)
